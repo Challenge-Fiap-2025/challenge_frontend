@@ -11,13 +11,18 @@ Além disso, a aplicação respeita diretrizes de design centrado no usuário, p
 
 🗂️ Estrutura de Pastas e Arquivos
 / (raiz do repositório)
+
 ├── index.html          # Página principal
+
 ├── css/                # Folhas de estilo
-│   └── style.css
+   └── style.css
+
 ├── js/                 # Scripts de interação
-│   └── main.js
+  └── main.js
+
 ├── html/               # Páginas secundárias
-│   └── about.html
+   └── about.html
+
 └── img/                # Imagens e ícones
     └── logo.png
 Cada pasta é isolada por responsabilidade, facilitando a manutenção e a colaboração entre integrantes.
