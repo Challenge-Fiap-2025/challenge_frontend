@@ -1,0 +1,317 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+html, body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+  
+body {
+    font-family: 'Segoe UI', sans-serif;
+    line-height: 1.6;
+    background-color: #f5f7fa;
+    color: #333;
+}
+  
+header {
+    background-color: #0077cc;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 5px solid #005fa3;
+}
+  
+header h1 {
+    font-size: 2.2em;
+}
+  
+header p {
+    font-size: 1.1em;
+    margin-top: 5px;
+}
+  
+
+nav ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px 0;
+    background-color: #005fa3;
+}
+  
+nav ul li {
+    margin: 0 10px;
+}
+  
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 6px;
+    transition: background 0.3s;
+}
+  
+nav ul li a:hover {
+    background-color: #003f6b;
+}
+  
+main {
+    padding: 30px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1; 
+}
+  
+.sobre h2 {
+    font-size: 1.8em;
+    margin-bottom: 15px;
+    color: #005fa3;
+}
+
+.sobre p {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+}
+  
+
+.lista-acomodacoes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+  
+.lista-acomodacoes article {
+    background-color: #fff;
+    border-radius: 12px;
+    padding: 15px;
+    width: 250px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+}
+  
+.lista-acomodacoes article:hover {
+    transform: translateY(-5px);
+}
+  
+.lista-acomodacoes img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+  
+  
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 500px;
+    margin: 0 auto;
+}
+  
+form input,
+form textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1em;
+}
+  
+form button {
+    padding: 12px;
+    background-color: #0077cc;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+  
+form button:hover {
+    background-color: #063d64;
+} 
+  
+  
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #0077cc;
+    color: white;
+}
+  
+
+@media (max-width: 768px) {
+    nav ul {
+      flex-direction: column;
+    }
+  
+    .lista-acomodacoes {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    main {
+      padding: 20px 10px;
+    }
+}
+  
+@media (max-width: 480px) {
+    header h1 {
+      font-size: 1.5em;
+    }
+  
+    nav ul li {
+      margin: 5px 0;
+    }
+  
+    form input, form textarea {
+      font-size: 1em;
+    }
+  
+    .lista-acomodacoes article {
+      width: 90%;
+    }
+}
+
+.rafael{
+    height: 300px;
+}
+
+.vitor{
+    height: 290px;
+}
+
+
+.imghosp{
+    height: 300px;
+    width: 500px;
+}
+
+
+.aida-container {
+    max-width: 400px;
+    margin: 0 auto;
+    background: #fefefe;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    text-align: center;
+}
+ 
+.aida-header {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+ 
+.aida-avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+ 
+.aida-header h2 {
+    font-size: 1.5em;
+    margin: 0;
+    color: #222;
+}
+ 
+.aida-header p {
+    font-size: 0.9em;
+    color: #666;
+}
+ 
+.aida-pergunta {
+    background-color: #e8e8e8;
+    padding: 12px;
+    border-radius: 12px;
+    font-size: 1.1em;
+    margin-bottom: 20px;
+}
+ 
+.aida-botoes {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: flex-start;
+}
+ 
+.aida-botoes button {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    /*justify-content: center;*/
+    padding: 15px;
+    background-color: #1c1c1e;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    font-size: 1em;
+    cursor: pointer;
+    text-align: left;
+    flex-direction: row;
+    transition: background-color 0.3s;
+    width: 100%;
+ 
+}
+ 
+.aida-botoes button:hover {
+    background-color: #333;
+}
+ 
+.aida-microfone {
+    margin-top: 30px;
+}
+ 
+.mic-button {
+    background: #1c1c1e;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    font-size: 1.5em;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+
+
+.localizacao{
+    padding:30px 0;
+}
+
+.header-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+}
+
+/* Logo pequeno no canto */
+.logo-img {
+  width: 60px;
+  height: auto;
+}
+
+/* Título e subtítulo juntos */
+.header-text {
+  flex: 1;
+  text-align: center;
+}
+
+.header-text h1 {
+  font-size: 1.8em;
+  margin: 0;
+}
+
+.header-text p {
+  margin: 0;
+  font-size: 1em;
+}
