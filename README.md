@@ -15,16 +15,20 @@ Além disso, a aplicação respeita diretrizes de design centrado no usuário, p
 ├── index.html          # Página principal
 
 ├── css/                # Folhas de estilo
+   
    └── style.css
 
 ├── js/                 # Scripts de interação
+  
   └── main.js
 
 ├── html/               # Páginas secundárias
+   
    └── about.html
 
 └── img/                # Imagens e ícones
-    └── logo.png
+    
+   └── logo.png
 Cada pasta é isolada por responsabilidade, facilitando a manutenção e a colaboração entre integrantes.
 
 ⚙️ Tecnologia Utilizada
