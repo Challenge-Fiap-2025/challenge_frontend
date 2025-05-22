@@ -28,7 +28,7 @@ Além disso, a aplicação respeita diretrizes de design centrado no usuário, p
 
 └── img/                # Imagens e ícones
     
-   └── logo.png
+   └── imagens.png
 Cada pasta é isolada por responsabilidade, facilitando a manutenção e a colaboração entre integrantes.
 
 ⚙️ Tecnologia Utilizada
