@@ -7,10 +7,9 @@ A interface é intuitiva, acessível e responsiva, permitindo que pacientes e ac
 No front-end, utilizamos HTML, CSS e JavaScript puro, com foco em desempenho e acessibilidade. O sistema também está preparado para receber mensagens via Telegram, promovendo inclusão digital.
 
 Além disso, a aplicação respeita diretrizes de design centrado no usuário, priorizando clareza, contraste e navegação fluida. Este projeto contribui para tornar o atendimento hospitalar mais ágil, humano e eficiente por meio da tecnologia.
+
+
 🗂️ Estrutura de Pastas e Arquivos
-bash
-Copiar
-Editar
 / (raiz do repositório)
 ├── index.html          # Página principal
 ├── css/                # Folhas de estilo
